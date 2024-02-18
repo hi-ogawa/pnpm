@@ -96,6 +96,10 @@ export function help () {
             name: '--otp',
           },
           {
+            description: 'Publish packages with provenance',
+            name: '--provenance',
+          },
+          {
             description: 'Publish all packages from the workspace',
             name: '--recursive',
             shortAlias: '-r',
